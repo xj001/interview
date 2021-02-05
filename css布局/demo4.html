@@ -1,0 +1,43 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-02-05 22:27:31
+ * @LastEditTime: 2021-02-05 22:39:57
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /interview/css布局/demo4.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .left{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    .right{
+        flex-grow: 1;
+        height: 200px;
+        background-color: green;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>

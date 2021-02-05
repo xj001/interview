@@ -1,0 +1,54 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-02-05 21:56:45
+ * @LastEditTime: 2021-02-05 22:13:20
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /interview/css布局/demo2.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        overflow: hidden;
+    }
+    .right{
+        float: left;
+        width: 100%;
+    }
+    .right-inner{
+        height: 200px;
+        margin-left: 200px;
+        background-color: green;
+    }
+    .left{
+        float: left;
+        width: 200px;
+        height:200px;
+        margin-left: -100%;
+        background-color: red;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="right">
+            <div class="right-inner">
+                fghj
+            </div>
+        </div>
+        <div class="left">
+            hj
+        </div>
+    </div>
+</body>
+</html>
